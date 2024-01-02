@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEE84082B44162100A1CE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE84072B44162100A1CE13 /* AppDelegate.swift */; };
+		4FEE840A2B44162100A1CE13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE84092B44162100A1CE13 /* SceneDelegate.swift */; };
+		4FEE840C2B44162100A1CE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE840B2B44162100A1CE13 /* ViewController.swift */; };
+		4FEE840F2B44162100A1CE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE840D2B44162100A1CE13 /* Main.storyboard */; };
+		4FEE84112B44162200A1CE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE84102B44162200A1CE13 /* Assets.xcassets */; };
+		4FEE84142B44162200A1CE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE84122B44162200A1CE13 /* LaunchScreen.storyboard */; };
+		4FEE841F2B44162200A1CE13 /* Hive_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE841E2B44162200A1CE13 /* Hive_aiTests.swift */; };
+		4FEE84292B44162300A1CE13 /* Hive_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE84282B44162300A1CE13 /* Hive_aiUITests.swift */; };
+		4FEE842B2B44162300A1CE13 /* Hive_aiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE842A2B44162300A1CE13 /* Hive_aiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FEE841B2B44162200A1CE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEE83FC2B44162100A1CE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEE84032B44162100A1CE13;
+			remoteInfo = Hive.ai;
+		};
+		4FEE84252B44162300A1CE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FEE83FC2B44162100A1CE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FEE84032B44162100A1CE13;
+			remoteInfo = Hive.ai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FEE84042B44162100A1CE13 /* Hive.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEE84072B44162100A1CE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FEE84092B44162100A1CE13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FEE840B2B44162100A1CE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FEE840E2B44162100A1CE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEE84102B44162200A1CE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FEE84132B44162200A1CE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FEE84152B44162200A1CE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEE841A2B44162200A1CE13 /* Hive.aiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hive.aiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEE841E2B44162200A1CE13 /* Hive_aiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hive_aiTests.swift; sourceTree = "<group>"; };
+		4FEE84242B44162200A1CE13 /* Hive.aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hive.aiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEE84282B44162300A1CE13 /* Hive_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hive_aiUITests.swift; sourceTree = "<group>"; };
+		4FEE842A2B44162300A1CE13 /* Hive_aiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hive_aiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEE84012B44162100A1CE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE84172B44162200A1CE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE84212B44162200A1CE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEE83FB2B44162100A1CE13 = {
+			isa = PBXGroup;
+			children = (
+				4FEE84062B44162100A1CE13 /* Hive.ai */,
+				4FEE841D2B44162200A1CE13 /* Hive.aiTests */,
+				4FEE84272B44162300A1CE13 /* Hive.aiUITests */,
+				4FEE84052B44162100A1CE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEE84052B44162100A1CE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE84042B44162100A1CE13 /* Hive.ai.app */,
+				4FEE841A2B44162200A1CE13 /* Hive.aiTests.xctest */,
+				4FEE84242B44162200A1CE13 /* Hive.aiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEE84062B44162100A1CE13 /* Hive.ai */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE84072B44162100A1CE13 /* AppDelegate.swift */,
+				4FEE84092B44162100A1CE13 /* SceneDelegate.swift */,
+				4FEE840B2B44162100A1CE13 /* ViewController.swift */,
+				4FEE840D2B44162100A1CE13 /* Main.storyboard */,
+				4FEE84102B44162200A1CE13 /* Assets.xcassets */,
+				4FEE84122B44162200A1CE13 /* LaunchScreen.storyboard */,
+				4FEE84152B44162200A1CE13 /* Info.plist */,
+			);
+			path = Hive.ai;
+			sourceTree = "<group>";
+		};
+		4FEE841D2B44162200A1CE13 /* Hive.aiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE841E2B44162200A1CE13 /* Hive_aiTests.swift */,
+			);
+			path = Hive.aiTests;
+			sourceTree = "<group>";
+		};
+		4FEE84272B44162300A1CE13 /* Hive.aiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FEE84282B44162300A1CE13 /* Hive_aiUITests.swift */,
+				4FEE842A2B44162300A1CE13 /* Hive_aiUITestsLaunchTests.swift */,
+			);
+			path = Hive.aiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEE84032B44162100A1CE13 /* Hive.ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEE842E2B44162300A1CE13 /* Build configuration list for PBXNativeTarget "Hive.ai" */;
+			buildPhases = (
+				4FEE84002B44162100A1CE13 /* Sources */,
+				4FEE84012B44162100A1CE13 /* Frameworks */,
+				4FEE84022B44162100A1CE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hive.ai;
+			productName = Hive.ai;
+			productReference = 4FEE84042B44162100A1CE13 /* Hive.ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FEE84192B44162200A1CE13 /* Hive.aiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEE84312B44162300A1CE13 /* Build configuration list for PBXNativeTarget "Hive.aiTests" */;
+			buildPhases = (
+				4FEE84162B44162200A1CE13 /* Sources */,
+				4FEE84172B44162200A1CE13 /* Frameworks */,
+				4FEE84182B44162200A1CE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEE841C2B44162200A1CE13 /* PBXTargetDependency */,
+			);
+			name = Hive.aiTests;
+			productName = Hive.aiTests;
+			productReference = 4FEE841A2B44162200A1CE13 /* Hive.aiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FEE84232B44162200A1CE13 /* Hive.aiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEE84342B44162300A1CE13 /* Build configuration list for PBXNativeTarget "Hive.aiUITests" */;
+			buildPhases = (
+				4FEE84202B44162200A1CE13 /* Sources */,
+				4FEE84212B44162200A1CE13 /* Frameworks */,
+				4FEE84222B44162200A1CE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEE84262B44162300A1CE13 /* PBXTargetDependency */,
+			);
+			name = Hive.aiUITests;
+			productName = Hive.aiUITests;
+			productReference = 4FEE84242B44162200A1CE13 /* Hive.aiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEE83FC2B44162100A1CE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4FEE84032B44162100A1CE13 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4FEE84192B44162200A1CE13 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4FEE84032B44162100A1CE13;
+					};
+					4FEE84232B44162200A1CE13 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4FEE84032B44162100A1CE13;
+					};
+				};
+			};
+			buildConfigurationList = 4FEE83FF2B44162100A1CE13 /* Build configuration list for PBXProject "Hive.ai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEE83FB2B44162100A1CE13;
+			productRefGroup = 4FEE84052B44162100A1CE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEE84032B44162100A1CE13 /* Hive.ai */,
+				4FEE84192B44162200A1CE13 /* Hive.aiTests */,
+				4FEE84232B44162200A1CE13 /* Hive.aiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEE84022B44162100A1CE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE84142B44162200A1CE13 /* LaunchScreen.storyboard in Resources */,
+				4FEE84112B44162200A1CE13 /* Assets.xcassets in Resources */,
+				4FEE840F2B44162100A1CE13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE84182B44162200A1CE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE84222B44162200A1CE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEE84002B44162100A1CE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE840C2B44162100A1CE13 /* ViewController.swift in Sources */,
+				4FEE84082B44162100A1CE13 /* AppDelegate.swift in Sources */,
+				4FEE840A2B44162100A1CE13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE84162B44162200A1CE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE841F2B44162200A1CE13 /* Hive_aiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEE84202B44162200A1CE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEE842B2B44162300A1CE13 /* Hive_aiUITestsLaunchTests.swift in Sources */,
+				4FEE84292B44162300A1CE13 /* Hive_aiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FEE841C2B44162200A1CE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEE84032B44162100A1CE13 /* Hive.ai */;
+			targetProxy = 4FEE841B2B44162200A1CE13 /* PBXContainerItemProxy */;
+		};
+		4FEE84262B44162300A1CE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FEE84032B44162100A1CE13 /* Hive.ai */;
+			targetProxy = 4FEE84252B44162300A1CE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FEE840D2B44162100A1CE13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEE840E2B44162100A1CE13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FEE84122B44162200A1CE13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEE84132B44162200A1CE13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEE842C2B44162300A1CE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FEE842D2B44162300A1CE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEE842F2B44162300A1CE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTN6S965Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hive.ai/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hive-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FEE84302B44162300A1CE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTN6S965Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hive.ai/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hive-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FEE84322B44162300A1CE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTN6S965Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hive-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hive.ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hive.ai";
+			};
+			name = Debug;
+		};
+		4FEE84332B44162300A1CE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTN6S965Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hive-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hive.ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hive.ai";
+			};
+			name = Release;
+		};
+		4FEE84352B44162300A1CE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTN6S965Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hive-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hive.ai;
+			};
+			name = Debug;
+		};
+		4FEE84362B44162300A1CE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTN6S965Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hive-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hive.ai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEE83FF2B44162100A1CE13 /* Build configuration list for PBXProject "Hive.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE842C2B44162300A1CE13 /* Debug */,
+				4FEE842D2B44162300A1CE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEE842E2B44162300A1CE13 /* Build configuration list for PBXNativeTarget "Hive.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE842F2B44162300A1CE13 /* Debug */,
+				4FEE84302B44162300A1CE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEE84312B44162300A1CE13 /* Build configuration list for PBXNativeTarget "Hive.aiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE84322B44162300A1CE13 /* Debug */,
+				4FEE84332B44162300A1CE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEE84342B44162300A1CE13 /* Build configuration list for PBXNativeTarget "Hive.aiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEE84352B44162300A1CE13 /* Debug */,
+				4FEE84362B44162300A1CE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEE83FC2B44162100A1CE13 /* Project object */;
+}
