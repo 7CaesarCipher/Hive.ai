@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F54D8422B460BBB00BDC107 /* HiveImageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54D8412B460BBB00BDC107 /* HiveImageWrapper.swift */; };
 		4F9E4A702B45B5D700C93AC2 /* HiveHttpUtlity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4A6F2B45B5D700C93AC2 /* HiveHttpUtlity.swift */; };
 		4F9E4A732B45B61600C93AC2 /* UrlConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4A722B45B61600C93AC2 /* UrlConstant.swift */; };
+		4F9E4A752B45D09000C93AC2 /* WikipediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4A742B45D09000C93AC2 /* WikipediaResponse.swift */; };
+		4F9E4A772B45D2D900C93AC2 /* WikipediaResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4A762B45D2D900C93AC2 /* WikipediaResource.swift */; };
+		4F9E4A7A2B45D3C200C93AC2 /* HiveEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4A792B45D3C200C93AC2 /* HiveEnums.swift */; };
+		4F9E4A7E2B45E93C00C93AC2 /* wikipediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4A7C2B45E93C00C93AC2 /* wikipediaTableViewCell.swift */; };
+		4F9E4A7F2B45E93C00C93AC2 /* wikipediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E4A7D2B45E93C00C93AC2 /* wikipediaTableViewCell.xib */; };
 		4FEE84082B44162100A1CE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE84072B44162100A1CE13 /* AppDelegate.swift */; };
 		4FEE840C2B44162100A1CE13 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE840B2B44162100A1CE13 /* MainViewController.swift */; };
 		4FEE840F2B44162100A1CE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEE840D2B44162100A1CE13 /* Main.storyboard */; };
@@ -37,8 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F54D8412B460BBB00BDC107 /* HiveImageWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveImageWrapper.swift; sourceTree = "<group>"; };
 		4F9E4A6F2B45B5D700C93AC2 /* HiveHttpUtlity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveHttpUtlity.swift; sourceTree = "<group>"; };
 		4F9E4A722B45B61600C93AC2 /* UrlConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlConstant.swift; sourceTree = "<group>"; };
+		4F9E4A742B45D09000C93AC2 /* WikipediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaResponse.swift; sourceTree = "<group>"; };
+		4F9E4A762B45D2D900C93AC2 /* WikipediaResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaResource.swift; sourceTree = "<group>"; };
+		4F9E4A792B45D3C200C93AC2 /* HiveEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveEnums.swift; sourceTree = "<group>"; };
+		4F9E4A7C2B45E93C00C93AC2 /* wikipediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wikipediaTableViewCell.swift; sourceTree = "<group>"; };
+		4F9E4A7D2B45E93C00C93AC2 /* wikipediaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wikipediaTableViewCell.xib; sourceTree = "<group>"; };
 		4FEE84042B44162100A1CE13 /* Hive.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEE84072B44162100A1CE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FEE840B2B44162100A1CE13 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +93,8 @@
 		4F9E4A6C2B45B46F00C93AC2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F9E4A742B45D09000C93AC2 /* WikipediaResponse.swift */,
+				4F9E4A762B45D2D900C93AC2 /* WikipediaResource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4F9E4A6F2B45B5D700C93AC2 /* HiveHttpUtlity.swift */,
+				4F54D8412B460BBB00BDC107 /* HiveImageWrapper.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -108,6 +123,23 @@
 				4F9E4A722B45B61600C93AC2 /* UrlConstant.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		4F9E4A782B45D3A400C93AC2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E4A792B45D3C200C93AC2 /* HiveEnums.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4F9E4A7B2B45E90000C93AC2 /* HiveCell */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E4A7C2B45E93C00C93AC2 /* wikipediaTableViewCell.swift */,
+				4F9E4A7D2B45E93C00C93AC2 /* wikipediaTableViewCell.xib */,
+			);
+			path = HiveCell;
 			sourceTree = "<group>";
 		};
 		4FEE83FB2B44162100A1CE13 = {
@@ -133,6 +165,8 @@
 		4FEE84062B44162100A1CE13 /* Hive.ai */ = {
 			isa = PBXGroup;
 			children = (
+				4F9E4A7B2B45E90000C93AC2 /* HiveCell */,
+				4F9E4A782B45D3A400C93AC2 /* Others */,
 				4F9E4A712B45B60500C93AC2 /* Constants */,
 				4F9E4A6E2B45B59100C93AC2 /* Utility */,
 				4F9E4A6D2B45B57600C93AC2 /* Common */,
@@ -275,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEE84142B44162200A1CE13 /* LaunchScreen.storyboard in Resources */,
+				4F9E4A7F2B45E93C00C93AC2 /* wikipediaTableViewCell.xib in Resources */,
 				4FEE84112B44162200A1CE13 /* Assets.xcassets in Resources */,
 				4FEE840F2B44162100A1CE13 /* Main.storyboard in Resources */,
 			);
@@ -302,7 +337,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEE840C2B44162100A1CE13 /* MainViewController.swift in Sources */,
+				4F9E4A7E2B45E93C00C93AC2 /* wikipediaTableViewCell.swift in Sources */,
+				4F54D8422B460BBB00BDC107 /* HiveImageWrapper.swift in Sources */,
+				4F9E4A7A2B45D3C200C93AC2 /* HiveEnums.swift in Sources */,
 				4F9E4A732B45B61600C93AC2 /* UrlConstant.swift in Sources */,
+				4F9E4A752B45D09000C93AC2 /* WikipediaResponse.swift in Sources */,
+				4F9E4A772B45D2D900C93AC2 /* WikipediaResource.swift in Sources */,
 				4FEE84082B44162100A1CE13 /* AppDelegate.swift in Sources */,
 				4F9E4A702B45B5D700C93AC2 /* HiveHttpUtlity.swift in Sources */,
 			);
