@@ -16,16 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search Markets" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzJ-cw-R9d">
-                                <rect key="frame" x="10" y="79" width="373" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <searchBar contentMode="redraw" searchBarStyle="prominent" placeholder="Search Products" translatesAutoresizingMaskIntoConstraints="NO" id="uzJ-cw-R9d">
+                                <rect key="frame" x="20" y="79" width="353" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="IHy-ls-ayq"/>
+                                    <constraint firstAttribute="height" constant="40" id="IHy-ls-ayq"/>
                                 </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="062-Xf-Xdh">
-                                <rect key="frame" x="0.0" y="129" width="393" height="594"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" separatorInsetReference="fromAutomaticInsets" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="062-Xf-Xdh">
+                                <rect key="frame" x="10" y="129" width="373" height="689"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
@@ -34,14 +35,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="062-Xf-Xdh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bxm-C1-yNp"/>
-                            <constraint firstItem="062-Xf-Xdh" firstAttribute="top" secondItem="uzJ-cw-R9d" secondAttribute="bottom" id="JJp-Q1-snx"/>
-                            <constraint firstItem="062-Xf-Xdh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OIB-Tk-9N9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="062-Xf-Xdh" secondAttribute="trailing" id="Pbg-Ug-v7v"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uzJ-cw-R9d" secondAttribute="trailing" constant="10" id="hFR-Gz-xLl"/>
-                            <constraint firstItem="062-Xf-Xdh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lUj-Xp-RG9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="062-Xf-Xdh" secondAttribute="trailing" constant="10" id="8Lc-VH-wcq"/>
+                            <constraint firstItem="062-Xf-Xdh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="GOZ-By-bTA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uzJ-cw-R9d" secondAttribute="trailing" constant="20" id="hFR-Gz-xLl"/>
+                            <constraint firstItem="062-Xf-Xdh" firstAttribute="top" secondItem="uzJ-cw-R9d" secondAttribute="bottom" constant="10" id="iRa-Us-urT"/>
                             <constraint firstItem="uzJ-cw-R9d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="lzq-7n-ijF"/>
-                            <constraint firstItem="uzJ-cw-R9d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="owN-NX-zyy"/>
+                            <constraint firstItem="uzJ-cw-R9d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="owN-NX-zyy"/>
+                            <constraint firstItem="062-Xf-Xdh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="taz-NS-nBE"/>
                         </constraints>
                     </view>
                     <connections>
