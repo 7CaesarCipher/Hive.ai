@@ -8,9 +8,6 @@
 import UIKit
 
 class MainViewController: UIViewController,UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate{
-    
-    
-    
     @IBOutlet weak var productTable: UITableView!
     @IBOutlet weak var productSearch: UISearchBar!
     var wikipediaResponse :WikipediaResponse?
@@ -20,7 +17,7 @@ class MainViewController: UIViewController,UITableViewDataSource, UITableViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
         searchScreenIntialization()
-        serviceRequestForGetSpecificCurrencyDetail()
+        serviceRequestForGetWikipediaDetail()
     }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         let task = DispatchWorkItem { [weak self] in
@@ -74,11 +71,9 @@ class MainViewController: UIViewController,UITableViewDataSource, UITableViewDel
         productSearch.backgroundImage = UIImage()
         productSearch.layer.cornerRadius = 5
         productSearch.clipsToBounds = true
-
-        
     }
     
-    fileprivate func serviceRequestForGetSpecificCurrencyDetail() {
+    fileprivate func serviceRequestForGetWikipediaDetail() {
         getWikipediatDetail { [weak self] (response) in
             if let response = response {
                 self?.wikipediaResponse = response
@@ -87,7 +82,6 @@ class MainViewController: UIViewController,UITableViewDataSource, UITableViewDel
                     self?.productTable.reloadData()
                 }
             } else {
-                // Handle error or nil response
                 print("Error: Unable to fetch Wikipedia response")
             }
         }

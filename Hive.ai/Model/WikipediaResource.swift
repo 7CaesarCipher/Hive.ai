@@ -7,7 +7,7 @@
 
 import Foundation
 func getWikipediatDetail(completionHandler: @escaping (_ result: WikipediaResponse?) -> Void) {
-    guard let loginURL = URL(string: "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrsearch=apple&gsrlimit=10&prop=pageimages%7Cextracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max") else {
+    guard let loginURL = URL(string: URLConstants.GetData) else {
         print("Error in Getting Auth token URL")
         return
     }

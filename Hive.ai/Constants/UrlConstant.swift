@@ -8,16 +8,17 @@
 import Foundation
 struct URLConstants {
     private struct Domains {
-        static let BaseURL = "https://en.wikipedia.org/w/api.php"
+        static let wikiURL = "https://en.wikipedia.org/w/api.php"
         
     }
-    private  struct Routes {
-        static let InjecApi = "?format=json&action=query&generator=search&gsrnamespace=0&gsrsearch=apple"
-       
-    }
-    private  static let MainUrl = Domains.BaseURL
+    private  static let Domain = Domains.wikiURL
+    private  static let InjecApiRoute = "?format=json&action=query&generator=search&gsrnamespace=0&gsrsearch=apple"
+    
+    
+    private  static let BaseURL = Domain + InjecApiRoute
+ 
     
     static var GetData: String {
-        return MainUrl  + "&gsrlimit=10&prop=pageimages%7Cextracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max"
+        return BaseURL  + "&gsrlimit=10&prop=pageimages%7Cextracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max"
     }
 }
